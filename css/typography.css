@@ -7,8 +7,8 @@
 
 @font-face {
 font-family: "gotham-book-regular";
-src: url("css/font/gotham-book-regular.ttf");
-src: url("css/fonts/gotham-book-regular.woff") format("woff");
+src: url("./font/gotham-book-regular.ttf");
+src: url("./font/gotham-book-regular.woff") format("woff");
 }
 
 html {
