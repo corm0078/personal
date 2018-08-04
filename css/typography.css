@@ -6,9 +6,7 @@
 
 @font-face {
     font-family: gotham-book-regular;
-    font-family: tiempos-headline-medium;
-    src: url(/gotham-book-regular.ttf);
-    src: url(/gotham-book-regular.ttf);
+    src: url("font/gotham-book-regular.ttf");
 }
 
 html {
