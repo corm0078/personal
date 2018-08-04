@@ -14,7 +14,6 @@ body {
   font-size: 18px;
   line-height: 28px;    
   font-family: "gotham-book-regular", sans-serif;
-  font-weight: 400;
   color: #333;
 }
 
@@ -24,23 +23,27 @@ p {
 }
 
 h1 {
-  font-family: "tiempo-bold", serif;    
+  font-family: "tiempo-headline-medium", serif;    
   font-size: 62px;
+  font-weight: 400;
 }
 
 h2 {
-    font-family: "tiempo-bold", serif;
+    font-family: "tiempo-headline-medium", serif;
     font-size: 48px;
+    font-weight: 400;
 }
 
 h3 {
      font-family: "gotham-book-regular", sans-serif;
     font-size: 22px;
+    font-weight: 100;
 }
 
 h4 {
     font-family: "gotham-book-regular", sans-serif;
     font-size: 18px;
+    font-weight:100;
 }
 
 .center{
