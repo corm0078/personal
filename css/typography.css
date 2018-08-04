@@ -10,6 +10,11 @@ font-family: "tiempos-headline-medium";
 src: url("../font/tiempos-headline-medium.ttf");
 }
 
+@font-face {
+font-family: "gotham-book-regular";
+src: url("../font/gotham-book-regular.ttf");
+}
+
 html {
     font-size: 1em;
 }
