@@ -4,9 +4,10 @@
 @-webkit-viewport {width: device-width; scale: 1;}
 @viewport {width: device-width; scale: 1;}
 
+
 @font-face {
-    font-family: gotham-book-regular;
-    src: url("../font/gotham-book-regular.ttf");
+font-family: "gotham-book-regular";
+src: url("font/gotham-book-regular.ttf");
 }
 
 html {
