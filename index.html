@@ -9,35 +9,51 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 	<header>
-		<nav class="grid-inline">
-			<ul class="nav links">
-				<li><a href="#work">Work</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#chat">Let's Chat</a></li>
-			</ul>
-			<div class="branding nav">
-				<img class="logo" src="img/branding.svg" alt="Martine Cormier Branding">
-			</div>	
-			<ul class="nav social">
-				<li><a href="https://www.linkedin.com/in/martine-cormier-33259264/" target="_blank">
-					<span style="font-size: 20px; color: #000000">
-  						<i class="fab fa-linkedin-in"></i>
-					</span>
-				</a></li>
-				<li><a href="https://www.instagram.com/martinecormier/" target="_blank">
-					<span style="font-size: 20px; color:  #000000">
-  						<i class="fab fa-instagram"></i>
-					</span>
-				</a></li>
-				<li><a href="https://www.behance.net/martinecormier" target="_blank">
-					<span style="font-size: 20px; color:  #000000;">
-  						<i class="fab fa-behance"></i>
-					</span>
-				</a></li>
-			</ul>
+		<nav>
+			<div class="mobile-nav">
+				<div class="branding nav">
+					<img class="logo" src="img/branding.svg" alt="Martine Cormier Branding">
+				</div>	
+				<ul class="nav social">
+					<li><a href="https://www.linkedin.com/in/martine-cormier-33259264/" target="_blank">
+						<span style="color: #000000">
+  							<i class="fab fa-linkedin-in"></i>
+						</span>
+					</a></li>
+					<li><a href="https://www.instagram.com/martinecormier/" target="_blank">
+						<span style="color:  #000000">
+  							<i class="fab fa-instagram"></i>
+						</span>
+					</a></li>
+					<li><a href="https://www.behance.net/martinecormier" target="_blank">
+						<span style="color:  #000000;">
+  							<i class="fab fa-behance"></i>
+						</span>
+					</a></li>
+				</ul>
+				<div class="mobile">
+					<input type="checkbox" class="nav-check" id="nav-check">
+					<label class="nav-label" for="nav-check">
+						<img src="img/nav.svg" alt="open mobile">
+					</label>
+					<ul class="links-mobile">
+						<li><a href="#work">Work</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#chat">Let's Chat</a></li>
+					</ul>
+				</div>
+				<div class="desktop">
+					<ul class="links">
+						<li><a href="#work">Work</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#chat">Let's Chat</a></li>
+					</ul>
+				</div>	
+			</div>
+				
 		</nav>
-		<div>
-			<h1>Hello, I'm Martine.</h1>
+		<div class="intro">
+			<h1>Hello, <br>I'm Martine.</h1>
 			<h3>I create user experiences to make life a little easier.</h3>
 			<h3 class="h3-link"><a href="#work">Explore my Work</a></h3>
 		</div>
@@ -135,6 +151,15 @@
 			</ul>
 		<div>©MartineCormier2018</div>
 	</footer>
+
+<script>window.jQuery || document.write("<script src='js/jquery-1.10.2.min.js'>\x3C/script>")</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>    
+<script src="js/waypoints.min.js"></script> 
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>    
+<script src="js/main.js"></script>
 </html>
 
 

@@ -20,6 +20,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    padding: 32px;
 }
 
 .flex-img {
@@ -36,13 +37,8 @@ ul{
 	overflow: hidden;
 }
 
-li{
-
-	float: left;
-}
 
 li a{
-	display: block;
 	text-align: center;
 	margin-left: 16px;
 	margin-right: 16px;
@@ -51,43 +47,150 @@ li a{
 	color: #000000;
 }
 
-.grid-inline{
-	display: block-block;
-	overflow: visible;
-	width: auto;
-	text-align: center;
-	height: 48px;
-	margin: 32px 48px;
-}
 
-.nav{
-	display: inline;
+nav ul{
 	margin: 0;
 }
 
-.branding{
-	width: 33.3333%;
-	display: inline-block;
-	float: left;
+/*mobile nav*/
+
+.mobile-nav{
+	width: 100%;
 
 }
 
-.social{
-	width: 33.333%;
-	display: inline-block;
-	text-align: left;
+.mobile-nav li a{
+	margin-left: 8px;
+	margin-right: 8px;
+	color: #000000;
+}
 
+.mobile-nav li a:hover{
+	color: #2A51E0;
+}
+
+.desktop-nav{
+	display: none;
+}
+
+.links-mobile{
+	display: none;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 20px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 10;
+	z-index: 1000;
+	background-color: white;
+	height: 260px;
+}
+
+.links-mobile li{
+	padding-top: 24px;
+}
+
+.nav-check {
+	position: absolute;
+	opacity: 0;
+	width: 26px;
+	height: 29px;
+	margin: 0;
+
+}
+
+.nav-check:checked ~ .links-mobile {
+	display: block;
+	position: absolute;
+}
+
+.nav-label{
+	cursor: pointer;
+	width: 26px;
+	height: 29px;
+}
+
+.nav-label img{
+}
+
+
+.social{
+	float: right;
+	text-align: right;
 }
 
 .social li{
-	display: inline-block;
-	float: right;
-}
-
-.links
-{
-	width: 33.3333%;
-	display: inline-block;
 	float: left;
 }
-/*
+
+.social span{
+	font-size: 16px;
+}
+
+.branding{
+	position: absolute;
+	text-align: center;
+	width: 33.333%;
+	float: right;
+	padding-left:28px;
+}
+
+.branding img{
+	width: 160px;
+}
+
+.desktop{
+	display: none;
+}
+
+
+
+/* desktop nav*/
+
+@media only screen and (min-width: 840px) {
+	.desktop{
+		display: block;
+		width: 33.333%;
+	}
+
+	.desktop ul li{
+		display: inline-block;
+	}
+
+	.mobile{
+		display: none;
+	}
+
+	.branding{
+		position: absolute;
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		float: left;
+		padding-left: 40px;
+	}
+
+	.branding img{
+		width: 215px;
+	}
+
+	.social span{
+	font-size: 21px;
+	}
+
+	.mobile-nav li a{
+	margin-left: 16px;
+	margin-right: 16px;
+	color: #000000;
+	}
+
+}
+
+
+.intro{
+	padding-top: 48px;
+}
