@@ -22,4 +22,72 @@ body {
     width: 100%;
 }
 
+.flex-img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.grid-inline{
+	display: block-block;
+	overflow: visible;
+	width: auto;
+	text-align: center;
+	height: 48px;
+	margin: 32px 48px;
+}
+
+.nav{
+	display: inline;
+	margin: 0;
+}
+
+.branding{
+	width: 33.3333%;
+	display: inline-block;
+	float: left;
+
+}
+
+.social{
+	width: 33.333%;
+	display: inline-block;
+	text-align: left;
+
+}
+
+.social li{
+	display: inline-block;
+	float: right;
+}
+
+.links
+{
+	width: 33.3333%;
+	display: inline-block;
+	float: left;
+}
 /*
