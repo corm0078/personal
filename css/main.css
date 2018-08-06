@@ -18,14 +18,8 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
     width: 100%;
-    padding: 32px;
-    overflow: hidden;
 }
-
-
-
 
 ul{
 	list-style: none;
@@ -44,9 +38,18 @@ li a{
 	color: #000000;
 }
 
+nav{
+	padding: 32px 32px 0px 32px;
+}
 
 nav ul{
 	margin: 0;
+}
+
+.flex-img{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /*mobile nav*/
@@ -93,8 +96,8 @@ nav ul{
 	opacity: 0;
 	width: 26px;
 	height: 29px;
+	cursor: pointer;
 	margin: 0;
-
 }
 
 .nav-check:checked ~ .links-mobile {
@@ -103,12 +106,8 @@ nav ul{
 }
 
 .nav-label{
-	cursor: pointer;
 	width: 26px;
 	height: 29px;
-}
-
-.nav-label img{
 }
 
 
@@ -188,24 +187,249 @@ nav ul{
 }
 
 
+/* mobile intro/image */
 
 .intro{
 	padding-top: 48px;
+	padding-bottom: 48px;
+	padding: 32px;
 }
 
+h3 a{
 
+	text-decoration: none;
+	color: #2A51E0;
+}
 
+.self-img{
+	background-color: #FDF8F3;
+	margin-left: 32px;
+	max-height: 275px;
+}
 
+.self-img img{
+	max-height: 275px;
+	float: right;
+}
+
+.sixteen-nine {
+  position: relative;
+}
+.sixteen-nine:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 275px;
+  padding-top: 56.25%;
+}
+.sixteen-nine > .content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* desktop intro/image */
 
 @media only screen and (min-width: 840px) {
 
+	nav{
+		padding-bottom: 32px;
+	}
+
+	.intro{
+		position: absolute;
+		float: left;
+		left: 0;
+		z-index: 100;
+		height: 440px;
+		display: block;
+	}
+
+	.content-text{
+		height: 440px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.self-img{
+		width: 70%;
+		float: right;
+		left: 0;
+		margin-left: 0;
+		max-height: 440px;
+	}
+
+	br{
+		display: none;
+	}
+
+	.sixteen-nine:before {
+  		height: 440px;
+	}
+
+	.self-img img{
+		max-height: 440px;
+	}
+}
+
+/* mobile work */
+
+.work{
+	padding: 0px 32px 0px 32px;
+}
+
+.project-img{
+	padding: 80px 0px 40px 0px;
+}
+
+.project-img img{
+	max-width: 500px;
+}
+
+.h3-link{
+	padding-bottom: 80px;
+}
+
+.project-text:after {
+	content:"";
+	border-top: 1px solid #E4E4E4;
+	padding-top: 40px;
+	display: block;
+	width: 100%;
+}
+
+@media only screen and (min-width: 840px) {
+	.work{
+		margin-top: 440px;
+	}
+
+	.project-img{
+		width: 50%;
+		float: left;
+		height: 388px;
+	}
 
 
+	.project-img img{
+
+		max-width: 540px;
+	}
+
+	.box{
+		position: absolute;
+		left: 0;
+		height: 388px;
+		display: block;
+	}
+
+	.project-text{
+		width: 50%;
+		float: right;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 5% 32px 5% 80px;
+	}
+
+	.project-text:after {
+		display: none;
+	}
+
+	.cali-white{
+		height: 388px;
+	}
+
+	.workland{
+		height: 388px;
+	}
+
+	.workland .project-img{
+		float: right;
+	}
+
+	.workland .project-text{
+		float: left;
+	}
+
+	.workland img{
+		width: 80%;
+		max-width: 400px;
+	}
+
+	.tea-expert img{
+		width: 80%;
+		max-width: 400px;
+	}
+
+	.the-pros-closet{
+		height: 388px;
+	}
+
+
+	.tea-expert .project-img{
+		float: right;
+	}
+
+	.tea-expert .project-text{
+		float: left;
+	}
+
+
+	.tea-expert{
+		height: 388px;
+	}
+
+	.modus{
+		height: 388px;
+	}
+
+	.dpa{
+		height: 388px
+	}
+
+	.dpa .project-img{
+		float: right;
+	}
+
+	.dpa .project-text{
+		float: left;
+	}
 
 }
 
 
 
 
+
+/* desktop work */
+
+
+
+
+
+
+/* mobile about */
+
+.about{
+	padding: 0px 32px 0px 32px;
+}
+
+
+
+/* desktop about*/
+
+
+
+
+
+
+
+/* mobile chat */
+
+.chat{
+	padding: 0px 32px 0px 32px;
+}
+
+
+/* desktop chat*/
 
 
