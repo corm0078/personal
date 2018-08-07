@@ -46,28 +46,29 @@ p {
 h1 {
   font-family: "tiempos-headline-medium", serif;    
   font-size: 42px;
-  line-height: 42px;
+  line-height: 46px;
   color: #000000;
 }
 
 h2 {
     font-family: "tiempos-headline-medium", serif;
     font-size: 32px;
-    line-height: 32px;
+    line-height: 36px;
     color: #000000;
 }
 
 h3 {
      font-family: "work-sans-regular", sans-serif;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 26px;
     color: #000000;
 }
 
 h4 {
     font-family: "work-sans-regular", sans-serif;
-    font-size: 16px;
-    color: #000000;
+    font-size: 12px;
+    color: #A7A7A7;
+    text-align: center
 }
 
 .center{

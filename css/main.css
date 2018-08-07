@@ -298,6 +298,10 @@ h3 a{
 	width: 100%;
 }
 
+.dpa .project-text:after {
+	display: none;
+}
+
 @media only screen and (min-width: 840px) {
 	.work{
 		margin-top: 440px;
@@ -327,7 +331,7 @@ h3 a{
 		float: right;
 		display: table-cell;
 		vertical-align: middle;
-		padding: 5% 32px 5% 80px;
+		padding: 2% 32px 5% 80px;
 	}
 
 	.project-text:after {
@@ -410,15 +414,70 @@ h3 a{
 /* mobile about */
 
 .about{
-	padding: 0px 32px 0px 32px;
+	padding: 0px 32px 0px 0px;
+}
+
+.self-img-2{
+	background-color: #F3F9FD;
+	margin-left: 0px;
+	max-height: 275px;
+}
+
+.self-img-2 img{
+	max-height: 275px;
+	float: left;
+}
+
+.about .sixteen-nine {
+  position: relative;
+}
+
+.about .sixteen-nine > .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about-text {
+ padding: 48px 32px 48px 32px;
 }
 
 
-
 /* desktop about*/
+@media only screen and (min-width: 840px) {
+
+	.self-img-2{
+		background-color: #F3F9FD;
+		max-height: 440px;
+		float: left;
+		left: 0;
+		width: 70%;
+		position: absolute;
+	}
+
+	.self-img-2 img{
+		max-height: 440px;
+	}
+
+	.about-text {
+ 		padding: 48px 32px 48px 32px;
+ 		width: 50%;
+ 		float: right;
+ 		right: 0;
+ 		height: 440px;
+ 		position: absolute;
+	}
+
+	.about .sixteen-nine {
+  		position: absolute;
+	}
+
+	.about-text .content-text{
+		height: 340px;
+	}
 
 
-
+}
 
 
 
@@ -426,10 +485,72 @@ h3 a{
 /* mobile chat */
 
 .chat{
-	padding: 0px 32px 0px 32px;
+	margin: 32px 32px 32px 32px;
+	padding: 40px 40px 40px 40px;
+	background-color: #FDF8F3;
+	text-align: center;
+}
+
+.chat h2:after {
+	content:"";
+	border-top: 1px solid #000000;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+	display: block;
+	vertical-align: center;
+}
+
+
+.chat .social-footer{
+
+	text-align: center;
+	float: none;
+	left: 50%
+	padding-top
+}
+
+.chat ul{
+	text-align: center;
+	margin: auto;
+	width: 70%;
+}
+
+
+.chat .social-footer span{
+	font-size: 24px;
+	text-align: center;
+}
+
+.social-footer{
+	padding-top: 15px;
 }
 
 
 /* desktop chat*/
+
+@media only screen and (min-width: 840px) {
+	.chat{
+		position: relative;
+		margin-top: 500px;
+	}
+
+	.chat ul{
+		text-align: center;
+		margin: auto;
+		width: 50%;
+	}
+
+	.chat h2:after {
+		display: none;
+	}	
+
+	.chat .social-footer span{
+	font-size: 20px;
+}
+}
+
 
 
