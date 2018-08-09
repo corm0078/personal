@@ -302,6 +302,17 @@ h3 a{
 	display: none;
 }
 
+.project-text a{
+
+		text-decoration: none;
+	}
+
+
+.project-img :hover{
+background: red;
+
+}
+
 @media only screen and (min-width: 840px) {
 	.work{
 		margin-top: 440px;
@@ -331,7 +342,12 @@ h3 a{
 		float: right;
 		display: table-cell;
 		vertical-align: middle;
-		padding: 2% 32px 5% 80px;
+		padding: 4% 32px 5% 80px;
+	}
+
+	.project-text a{
+
+		text-decoration: none;
 	}
 
 	.project-text:after {
@@ -524,10 +540,6 @@ h3 a{
 	text-align: center;
 }
 
-.social-footer{
-	padding-top: 15px;
-}
-
 
 /* desktop chat*/
 
@@ -575,7 +587,6 @@ h3 a{
 
 
 }
-
 
 #prev {
 	left: 0;
