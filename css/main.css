@@ -549,8 +549,81 @@ h3 a{
 
 	.chat .social-footer span{
 	font-size: 20px;
+	}
 }
+
+
+/*Project Pages*/
+
+.project-nav{
+
+	position: fixed;
+	text-align: center;
+	height: 9.1rem;
+	top: 50%;
+	margin: 0;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
+
+
+}
+
+
+#prev {
+	left: 0;
+}
+
+#next {
+	right: 0;
+}
+
+#prev, #next{
+	display: block;
+}
+
+#prev a {
+	-webkit-transform: rotate(270deg) translateX(-103%) translateY(12px);
+    -ms-transform: rotate(270deg) translateX(-103%) translateY(12px);
+    transform: rotate(270deg) translateX(-103%) translateY(12px);
+}
+
+
+#next a {
+	-webkit-transform: rotate(90deg) translateX(-22%) translateY(6px);
+    -ms-transform: rotate(90deg) translateX(-22%) translateY(6px);
+    transform: rotate(90deg) translateX(-22%) translateY(6px);
+}
+
+
+#prev a {
+	margin-left: -65px;
+}
+
+#next a {
+	margin-right: -40px;
+}
+
+#next a, #prev a{
+	display: block;
+	width: 9.1rem;
+	float:left;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.intro-img{
+	padding: 48px 32px 0 32px;
+}
+
+.padding{
+	padding: 32px 32px 0px 32px;
+}
+
+
+
+
 
 
 
