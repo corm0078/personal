@@ -17,7 +17,7 @@ src: url("../font/gotham-book-regular.ttf");
 
 @font-face {
 font-family: "galano-regular";
-src: url("./font/galano-grotesque-regular.ttf");
+src: url("../font/galano-grotesque-regular.ttf");
 }
 
 @font-face {
