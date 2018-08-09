@@ -627,20 +627,16 @@ h3 a{
 	padding: 0px 32px 0px 32px;
 }
 
-.project-items{
-	height: auto;
-}
 
 .project-text-items{
 	max-width: 970px;
-	margin: 48px 0 48px auto;
+	margin: 0 auto;
+	padding: 48px 48px 48px 48px;
 }
 
 .chat-project{
 	margin-top: 48px;
 }
-
-
 
 
 
