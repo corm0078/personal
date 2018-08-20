@@ -464,6 +464,9 @@ h3 a{
  padding: 48px 32px 48px 32px;
 }
 
+.about-text h3{
+		padding-top: 8px;
+	}
 
 /* desktop about*/
 @media only screen and (min-width: 840px) {
@@ -490,6 +493,7 @@ h3 a{
  		position: absolute;
 	}
 
+
 	.about .sixteen-nine {
   		position: absolute;
 	}
@@ -498,6 +502,9 @@ h3 a{
 		height: 340px;
 	}
 
+	.about{
+		margin-top: 62px;
+	}
 
 }
 
@@ -552,7 +559,7 @@ h3 a{
 @media only screen and (min-width: 840px) {
 	.chat{
 		position: relative;
-		margin-top: 500px;
+		margin-top: 548px;
 	}
 
 	.chat ul{
