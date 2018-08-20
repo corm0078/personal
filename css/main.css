@@ -331,6 +331,7 @@ h3 a{
 		left: 0;
 		height: 388px;
 		display: block;
+		width: 100%;
 	}
 
 	.project-text{
@@ -338,7 +339,7 @@ h3 a{
 		float: right;
 		display: table-cell;
 		vertical-align: middle;
-		padding: 4% 32px 5% 80px;
+		padding: 11% 32px 5% 80px;
 	}
 
 	.project-text a{
