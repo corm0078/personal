@@ -211,7 +211,7 @@ h3 a{
 }
 
 .self-img{
-	background-color: #FDF8F3;
+	background-color: #FAEEE2;
 	margin-left: 32px;
 	max-height: 275px;
 }
@@ -348,7 +348,7 @@ h3 a{
 		float: right;
 		display: table-cell;
 		vertical-align: middle;
-		padding: 11% 32px 5% 80px;
+		padding: 10% 32px 5% 80px;
 	}
 
 	.project-text a{
@@ -440,7 +440,7 @@ h3 a{
 }
 
 .self-img-2{
-	background-color: #F3F9FD;
+	background-color: #E5F3FC;
 	margin-left: 0px;
 	max-height: 275px;
 }
@@ -516,7 +516,7 @@ h3 a{
 .chat{
 	margin: 32px 32px 32px 32px;
 	padding: 40px 40px 40px 40px;
-	background-color: #FDF8F3;
+	background-color: #FAEEE2;
 	text-align: center;
 }
 
@@ -771,6 +771,11 @@ h3 a{
 .menu__item-label {
 	position: relative;
 	display: inline-block;
+}
+
+.credits{
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
 
 
